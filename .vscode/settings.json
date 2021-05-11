@@ -1,0 +1,55 @@
+{
+  // 以下为stylus配置
+  "stylusSupremacy.insertColons": false, // 是否插入冒号
+  "stylusSupremacy.insertSemicolons": false, // 是否插入分号
+  "stylusSupremacy.insertBraces": false, // 是否插入大括号
+  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
+  "stylusSupremacy.insertNewLineAroundBlocks": false, // 两个选择器中是否换行
+  // 其他设置
+  "editor.formatOnSave": true, //每次保存自动格式化
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //让函数(名)和后面的括号之间加个空格
+  "editor.quickSuggestions": {
+    //开启自动显示建议
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "prettier.semi": false, //去掉代码结尾的分号
+
+  "editor.wordWrap": "on",
+  // 如果useLanguageServer设为true，那么在编写代码时引入本地没有的package时，会自动下载安装
+  // 就是有时候会非常卡，保存go的编码文件时偶尔会卡死。这点你们自己取舍吧
+  "go.useLanguageServer": true,
+  "go.docsTool": "gogetdoc",
+  "go.testFlags": ["-v", "-count=1"],
+  "go.buildTags": "",
+  "go.buildFlags": [],
+  "go.lintFlags": [],
+  "go.vetFlags": [],
+  "go.coverOnSave": false,
+  "go.useCodeSnippetsOnFunctionSuggest": false,
+  "go.formatTool": "goreturns",
+  "go.gocodeAutoBuild": false,
+  "go.goroot": "C:/Go",
+  "go.gopath": "D:/work/product/练习/go",
+  "go.autocompleteUnimportedPackages": true,
+  "go.formatOnSave": true,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "breadcrumbs.enabled": true,
+  "explorer.openEditors.visible": 0,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 200,
+  "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.ignoreLimitWarning": true
+}

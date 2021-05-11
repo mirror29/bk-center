@@ -1,0 +1,533 @@
+@charset "UTF-8";
+/* 重置样式 */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: normal 400 14px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+small {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #2b99ff;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #2b99ff;
+  text-decoration: none !important;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  display: block;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+small {
+  font-size: 11.2px;
+}
+
+sub,
+sup {
+  font-size: 10.5px;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -3.5px;
+}
+
+sup {
+  top: -7px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.text-scale {
+  display: inline-block;
+  font-size: 12px !important;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.8333);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 37.5px;
+}
+
+html body {
+  height: 100%;
+}
+
+html body .s-box {
+  background-color: #f9f9f9;
+  padding-top: 44px;
+}
+
+/* 页面切换进度条 */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #2b99ff;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #2b99ff, 0 0 5px #2b99ff;
+  opacity: 1;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border: solid 2px transparent;
+  border-top-color: #2b99ff;
+  border-left-color: #2b99ff;
+  border-radius: 50%;
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+  animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.van-nav-bar__arrow {
+  font-size: 20px;
+}
+
+.van-nav-bar__title {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.list-load .van-loading {
+  margin: 0 auto;
+}
+
+.list-load p {
+  margin-top: 8px;
+}
+
+.album,
+.tag {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/album@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.mp3,
+.wav,
+.flvc,
+.aac,
+.amrra,
+.wma,
+.ogg,
+.m4a,
+.m3a,
+.flav {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/mp3@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.ppt,
+.pptx {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/ppt@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.doc,
+.docx {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/doc@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.rar,
+.zip {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/zip@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.video,
+.mp4,
+.avi,
+.flv,
+.swf,
+.rmvb,
+.wmv,
+.mov,
+.mpg,
+.mvb,
+.rmv,
+.ts,
+.rm,
+.mtv,
+.kux,
+.mpeg {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/video@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.image,
+.jpg,
+.jpeg,
+.gif,
+.png,
+.bmp,
+.m4a {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/image@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.pdf {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/pdf@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.folder {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/folder@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.other,
+.db,
+.qlv,
+.tmp,
+.qsv,
+.txt,
+.jfif,
+.xlsx,
+.f4v,
+.wps,
+.SWF,
+.paper,
+.others {
+  background: url("https://www.51jiaoxi.com/v2/img/weapp/others@2x.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.fileType {
+  float: left;
+  margin-right: 10px;
+  width: 16px;
+  height: 18px;
+}
+
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
